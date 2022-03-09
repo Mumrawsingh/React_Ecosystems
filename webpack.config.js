@@ -33,7 +33,7 @@ module.exports = {
         devMiddleware:{
             publicPath: 'http://localhost:3000/dist/',
         },
-        hot: "only"
+        hot: "only" // hotOnly: true
     },
     plugins: [new webpack.HotModuleReplacementPlugin()]
 };
